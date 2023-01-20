@@ -21,7 +21,7 @@ function adicionar() {
     }
 }
 
-function fim() {
+function finalizar() {
     res.innerHTML = `Ao todo temos ${lista.length} números cadastrados <br>`
     lista.sort()
     let menor = lista[0]
